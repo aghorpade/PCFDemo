@@ -1,0 +1,7 @@
+---
+applications:
+  - name: AMITSPRINGMYSQL
+    buildpack: java_buildpack
+    path: build/libs/demo-0.0.1-SNAPSHOT.jar
+    services:
+      - AMITMYSQL
